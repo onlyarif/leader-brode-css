@@ -1,7 +1,55 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.first-header img{
+    width: 40.42px;
+   height: 51px;
+   margin-left: 285px;
+   margin-top: 5px;
 
-
+}
+.first-header{
+    display: flex;
+}
+.idea{
+    color: white;
+    font-size: 24px;
+    width: 40.42px;
+    height: 51px;
+    margin-left: 15px;
+   text-align: center;
+   
+}
+.header{
+    width: 1440px;
+   height: 65px;
+      background-color: #562EFF;
+      margin-bottom: 45px;
+      display: flex;
+}
+.about{
+   margin-left: 36px;
+}
+.works{
+    margin-left: 36px;
+}
+.link{
+    display: flex;
+   
+ margin-top: 20px;
+    margin-left: 500px;
+}
+.second-header{
+  
+}
+.second-header a{
+    color: white;
+    text-decoration: none;
+}
+.second-header img{
+    
+    margin-top: -40px;
+    margin-left: 740px;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
