@@ -83,3 +83,60 @@ hr{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 26px;
 }
+/* -------------
+coursrs-styles
+--------------- */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+    grid-column-gap: 25px;
+}
+
+
+.course .course-banner img{
+    width: 266px;
+    height: 141px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-time{
+    width: 94.83px;
+    height: 29.38px;
+      text-align: center;
+    background-color: #FFE4E8;
+     border-radius: 14.6913px;
+     padding-top: 5px;
+     color: #e61c3a;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.fill{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+/*---------
+medea quaris
+----------- */
+/* moble device */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+
+    }
+    .player,.blogs,.courses{
+        flex-direction: column;
+    
+    }
+    .players,.blog{
+        grid-template-columns: repeat(1,1fr );
+
+    }
+     
+    
+}
